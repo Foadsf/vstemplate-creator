@@ -1,0 +1,21 @@
+{
+  "SolutionName": "MixedFrameworks",
+  "VersionControl": "git",
+  "Projects": [
+    {
+      "Name": "Legacy.UI",
+      "Type": "winforms",
+      "Framework": "net462"
+    },
+    {
+      "Name": "Modern.UI",
+      "Type": "wpf",
+      "Framework": "net48"
+    },
+    {
+      "Name": "SharedLibrary",
+      "Type": "classlib",
+      "Framework": "net462"
+    }
+  ]
+}

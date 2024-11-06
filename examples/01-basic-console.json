@@ -1,0 +1,11 @@
+{
+  "SolutionName": "BasicConsoleApp",
+  "VersionControl": "git",
+  "Projects": [
+    {
+      "Name": "ConsoleApp",
+      "Type": "console",
+      "Framework": "net472"
+    }
+  ]
+}

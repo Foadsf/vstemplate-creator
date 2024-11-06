@@ -1,0 +1,41 @@
+{
+  "SolutionName": "EnterpriseSolution",
+  "VersionControl": "git",
+  "Projects": [
+    {
+      "Name": "Enterprise.UI.WinForms",
+      "Type": "winforms",
+      "Framework": "net472"
+    },
+    {
+      "Name": "Enterprise.UI.WPF",
+      "Type": "wpf",
+      "Framework": "net472"
+    },
+    {
+      "Name": "Enterprise.Core",
+      "Type": "classlib",
+      "Framework": "net472"
+    },
+    {
+      "Name": "Enterprise.Data",
+      "Type": "classlib",
+      "Framework": "net472"
+    },
+    {
+      "Name": "Enterprise.Services",
+      "Type": "classlib",
+      "Framework": "net472"
+    },
+    {
+      "Name": "Enterprise.Tests.Unit",
+      "Type": "mstest",
+      "Framework": "net472"
+    },
+    {
+      "Name": "Enterprise.Tests.Integration",
+      "Type": "mstest",
+      "Framework": "net472"
+    }
+  ]
+}

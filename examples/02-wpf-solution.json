@@ -1,0 +1,21 @@
+{
+  "SolutionName": "WpfApplication",
+  "VersionControl": "git",
+  "Projects": [
+    {
+      "Name": "WpfApp.UI",
+      "Type": "wpf",
+      "Framework": "net472"
+    },
+    {
+      "Name": "WpfApp.Core",
+      "Type": "classlib",
+      "Framework": "net472"
+    },
+    {
+      "Name": "WpfApp.Tests",
+      "Type": "mstest",
+      "Framework": "net472"
+    }
+  ]
+}

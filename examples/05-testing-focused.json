@@ -1,0 +1,31 @@
+{
+  "SolutionName": "TestingProject",
+  "VersionControl": "git",
+  "Projects": [
+    {
+      "Name": "MainApp",
+      "Type": "console",
+      "Framework": "net472"
+    },
+    {
+      "Name": "MainApp.Core",
+      "Type": "classlib",
+      "Framework": "net472"
+    },
+    {
+      "Name": "MainApp.Tests.Unit",
+      "Type": "mstest",
+      "Framework": "net472"
+    },
+    {
+      "Name": "MainApp.Tests.Integration",
+      "Type": "mstest",
+      "Framework": "net472"
+    },
+    {
+      "Name": "MainApp.Tests.Acceptance",
+      "Type": "mstest",
+      "Framework": "net472"
+    }
+  ]
+}
